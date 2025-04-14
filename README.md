@@ -2,6 +2,8 @@
 ### 1.Introduction
 In this project, the QuickFind and WeightedQuickUnion algorithms are respectively used to conduct porous material penetration simulation experiments, and Monte Carlo simulations are used to estimate the penetration threshold. The running time of the two algorithms is used to compare their performance differences.  
 
+Anyone is welcome to discuss with me about this or anything else 😉
+
 -----
 
 ### 2.Percolation
@@ -50,3 +52,13 @@ $$
 `Mean() = 0.5932255156249996`  
 `StdDev() = 0.0022747205279140667`  
 `95% Confidence Interval: [0.5927796704015285, 0.5936713608484707]`  
+
+-----
+
+### 5.Code Description  
+Percolation experiment simulation implemented by PercolationQF.java referencing the QuickFindUF class.  
+Percolation experiment simulation implemented by PercolationWQU.java for reference WeightedQuickUnionUF class.  
+PercolationStatsQF.java is based on Monte Carlo simulations performed by the QuickFindUF class.  
+PercolationStatsWQU.java is based on Monte Carlo simulations performed by the WeightedQuickUnionUF class.  
+QuickFindUF.java and WeightedQuickUnionUF.java store these two classes
+The rest of the files in the src folder are decompiled from stdlib.jar
