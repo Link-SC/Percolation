@@ -50,7 +50,7 @@ public class PercolationQF{
 					uf.union(now, index(ni, nj));
 			}
 			if (i == N - 1) {
-		        uf.union(index(i, j), bottom);  // 如果是底部行，连接虚拟底部
+		        uf.union(index(i, j), bottom);
 		    }
 		}
 	}
